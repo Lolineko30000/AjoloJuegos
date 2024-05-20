@@ -1,4 +1,4 @@
-package com.first_spring_boot.classes;
+package com.ajolojuegos.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

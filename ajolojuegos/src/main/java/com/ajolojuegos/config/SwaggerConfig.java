@@ -1,4 +1,4 @@
-package com.first_spring_boot.config;
+package com.ajolojuegos.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

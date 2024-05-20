@@ -1,4 +1,4 @@
-package com.first_spring_boot.classes;
+package com.ajolojuegos.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -8,6 +8,7 @@ public class User {
     @Id
     public Integer userId;
     public String name;
+    public String password;
     public Float walletBalance;
     public String email;
     public String phoneNumber;

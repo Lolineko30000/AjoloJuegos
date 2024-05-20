@@ -22,7 +22,7 @@ $(() => {
                 this.showLogin = !this.showLogin;
             },
             login() {
-                axios.post('/login', this.loginData)
+                axios.post('/login_', this.loginData)
                     .then(response => {
                         // Handle successful login
                         console.log(response.data);
